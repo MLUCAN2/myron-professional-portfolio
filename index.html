@@ -2,37 +2,63 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Myron's Professional Portfolio</title>
 </head>
 
 <body>
+    <!--Header and navigation Section-->
     <header class="header">
-        <h1>Myron's Portfolio</h1>
+        <h1><img src="assets/images/me.jpg" alt="me">Myron's Portfolio</h1>
         <nav>
             <ul>
-                <!-- add in href later to link the boxes ML-->
-                <li><a>Course Work</a></li>
-                <li><a>Projects</a></li>
-                <li><a>About</a></li>
-                <li><a>Contacts</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
     </header>
-
-        <section class="flex-container">
-            <section class="flex-box">
-                <section class="flex-box-box">Horiseon Project</section>   
-            </section>
-            
-            <section class="flex-box">
-                <section class="flex-box-box">Future Projects</section>   
-            </section>
-
-            <section class="flex-box">
-                <section class="flex-box-box">About Me</section>   
-            </section>
+    <!--About Me Section-->
+    <section class="about-me-container" id="about-me">
+        <img src="assets/images/mystery-man.jpg" alt="mystery-man">
+        <section class="about-me">
+            <h2 class="title-me">About Me</h2>
+            <p class="text-me">My name is Myron Lucan. My goal is to become a fullstack web developer.
+                I am currently based in Dallas, TX., going through the necessary training required to become a web
+                developer.
+                Prior to this course I have spent two years working in building automation and six years in the United
+                States Air Force.
+                My goal is utilize the knowledge and skills developed over the years to provide a seamless working site
+                for my end users.
+            </p>
         </section>
-   
+    </section>
+    <!--Project Section-->
+    <section class="projects-container" id="projects">
+        <h2>Projects</h2>
+        <section class="project-boxes">
+            <a href="https://mlucan2.github.io/refactor-horiseon-code/">
+                <section class="horiseon">
+            </section></a>
+            <div class="future-container">
+            <section class="future-projects">
+                <img src="assets/images/future-projects.jpg" alt="Future Road">
+            </section>
+            <section class="future-projects">
+                <img src="assets/images/future-projects.jpg" alt="Future Road">
+            </section>
+            </div>
+        </section>
+    </section>
+    <!--Contact Section-->
+    <section class="contact-me" id="contacts">
+        <h2>Contact Me</h2>
+        <ul>
+            <li><a href="myronlucan@gmail.com" class="email-link">Email: myronlucan@gmail.com</a></li>
+            <li><a href="(325)514-0282" class="phone-number">Phone: (325) 514-0282</a></li>
+            <li><a href="https://www.linkedin.com/in/myron-lucan-02722613b/" class="url">Linkedln</a></li>
+        </ul>
+    </section>
+
 </body>
